@@ -1,5 +1,7 @@
 
 import './App.css'
+import Banner from './components/Banner/Banner'
+import RowPost from './components/Rowpost/RowPost'
 import Navbar from './components/navbar/Navbar'
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
   return (
     <>
     <Navbar/>
+    <Banner />
+    <RowPost />
     </>
   )
 }
